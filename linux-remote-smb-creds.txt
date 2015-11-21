@@ -1,0 +1,6 @@
+This directory contains a root-only file which contains credentials to mount a windows box via fstab.
+
+Also, I needed to install cifs-utils for this to work properly.
+
+Here's the line in /etc/fstab which reads these credentials:
+//windows-pc/Users /mnt/windows-pc cifs credentials=/opt/smbcreds/.smbcredentials,iocharset=utf8,file_mode=0777,dir_mode=077 0 0

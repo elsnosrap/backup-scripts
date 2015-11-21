@@ -1,0 +1,11 @@
+.cache
+.gvfs
+.libreoffice
+.local/share/Trash
+.macromedia
+.mozilla
+.thumbnails
+.viminfo
+dev/android-source
+Applications/android-studio/sdk
+.dbus
