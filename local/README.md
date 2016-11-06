@@ -15,5 +15,6 @@ Before running this script, a Windows-based PC must be mounted on the local mach
 ```
 //<Computer Name>/<User name> /mnt/windows-pc cifs credentials=/opt/smbcreds/.smbcredentials,iocharset=utf8,file_mode=0777,dir_mode=077 0 0
 ``` 
-4. Be sure to enter your actual computer's name and user's name.
-5. You will now be able to mount the user's directory in read-write mode. If you wish to mount it in read-only mode, replace ```file_mode=0777,dir_mode=077``` with ```ro```.
+Be sure to enter your actual computer's name and user's name.
+
+You will now be able to mount the user's directory in read-write mode. If you wish to mount it in read-only mode, replace ```file_mode=0777,dir_mode=077``` with ```ro```.
